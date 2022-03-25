@@ -9,7 +9,7 @@ export const Navbar = () => {
         <a href="./">Harmanjot Singh</a>
       </h1>
 
-      <nav class="navbar">
+      <nav className="navbar">
         <ul>
           <li>
             <a href="#about-me">About me</a>

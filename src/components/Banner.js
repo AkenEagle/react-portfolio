@@ -4,7 +4,7 @@ import "../App.css";
 
 export const Banner = () => {
   return (
-    <div class="banner">
+    <div className="banner">
       <h2>Harmanjot Singh | Professional Portfolio</h2>
     </div>
   );
