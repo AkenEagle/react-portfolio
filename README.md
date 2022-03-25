@@ -2,7 +2,7 @@
 
 ## DEPLOYMENT LINK
 
-[click here](https://akeneagle.github.io/react-portfolio/)
+[Link](https://akeneagle.github.io/react-portfolio/)
 
 ## DESCRIPTION
 
