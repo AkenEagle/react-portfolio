@@ -1,5 +1,7 @@
 import React from "react";
 
+import profileImg from "../assets/images/profile.jpeg";
+
 import "../App.css";
 
 export const AboutMe = () => {
@@ -9,11 +11,7 @@ export const AboutMe = () => {
         <h3>About me</h3>
       </div>
       <div className="content-box">
-        <img
-          src="../assets/images/profile.jpeg"
-          alt="harmanjot singh profile"
-          height="300px"
-        />
+        <img src={profileImg} alt="harmanjot singh profile" height="300px" />
         <p>
           I'm Harman, an ispiring full-stack Web Developer. Currently studying
           at the Coding Bootcamp at University of Birmingham. I used the skills

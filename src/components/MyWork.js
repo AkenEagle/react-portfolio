@@ -1,5 +1,17 @@
 import React from "react";
 
+import readersRevivalImg from "../assets/images/readers-revival.png";
+import employeeTrackerImg from "../assets/images/employee-tracker.png";
+import readmeGeneratorImg from "../assets/images/readme-generator.jpg";
+import textEditorImg from "../assets/images/text-editor.png";
+import food4UImg from "../assets/images/food4u.png";
+import noteTakerImg from "../assets/images/note-taker.png";
+import techBlogImg from "../assets/images/tech-blog.png";
+import teamProfileGeneratorImg from "../assets/images/team-profile-generator.png";
+import workDaySchedulerImg from "../assets/images/work-day-scheduler.png";
+import passwordGeneratorImg from "../assets/images/password-generator.png";
+import codeQuizImg from "../assets/images/code-quiz.png";
+
 import "../App.css";
 
 export const MyWork = () => {
@@ -10,7 +22,7 @@ export const MyWork = () => {
       </div>
       <div className="content-box">
         <div className="card" id="main-project">
-          <img src="./assets/images/readers-revival.png" />
+          <img src={readersRevivalImg} />
           <div className="card-info">
             <p>Readers Revival</p>
             <ul>
@@ -38,7 +50,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/employee-tracker.png" />
+          <img src={employeeTrackerImg} />
           <div className="card-info">
             <p>Employee Tracker</p>
             <ul>
@@ -64,7 +76,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/readme-generator.jpg" />
+          <img src={readmeGeneratorImg} />
           <div className="card-info">
             <p>Readme Generator</p>
             <ul>
@@ -90,7 +102,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/text-editor.png" />
+          <img src={textEditorImg} />
           <div className="card-info">
             <p>Text Editor</p>
             <ul>
@@ -116,7 +128,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/food4u.png" />
+          <img src={food4UImg} />
           <div className="card-info">
             <p>Food 4 U</p>
             <ul>
@@ -136,7 +148,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/note-taker.png" />
+          <img src={noteTakerImg} />
           <div className="card-info">
             <p>Note Taker</p>
             <ul>
@@ -162,7 +174,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/tech-blog.png" />
+          <img src={techBlogImg} />
           <div className="card-info">
             <p>Tech Blog</p>
             <ul>
@@ -188,7 +200,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/team-profile-generator.png" />
+          <img src={teamProfileGeneratorImg} />
           <div className="card-info">
             <p>Team Profile Generator</p>
             <ul>
@@ -214,7 +226,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/work-day-scheduler.png" />
+          <img src={workDaySchedulerImg} />
           <div className="card-info">
             <p>Work Day Scheduler</p>
             <ul>
@@ -240,7 +252,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/password-generator.png" />
+          <img src={passwordGeneratorImg} />
           <div className="card-info">
             <p>Password Generator</p>
             <ul>
@@ -266,7 +278,7 @@ export const MyWork = () => {
         </div>
 
         <div className="card">
-          <img src="./assets/images/code-quiz.png" />
+          <img src={codeQuizImg} />
           <div className="card-info">
             <p>Code Quiz</p>
             <ul>
