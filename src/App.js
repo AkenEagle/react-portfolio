@@ -1,6 +1,7 @@
 import { Navbar } from "./components/Navbar";
 import { Banner } from "./components/Banner";
 import { AboutMe } from "./components/AboutMe";
+import { MyWork } from "./components/MyWork";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Banner />
       <AboutMe />
+      <MyWork />
     </main>
   );
 }
