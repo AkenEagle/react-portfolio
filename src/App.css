@@ -1,38 +1,344 @@
-.App {
+/* CSS Resets */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Color variables */
+:root {
+  --black: #000000;
+  --darkGrey: #333333;
+  --light: #f5f5f7;
+  --red: #e50914;
+}
+
+/* For smooth scrolling when clicking links */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Default font size to use with REM */
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--black);
+  background-color: var(--light);
+  animation: colorize 1s;
+}
+
+header {
+  white-space: nowrap;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: var(--black);
+  opacity: 0.9;
+  padding: 0.8rem 10rem;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  animation-name: unblur;
+  animation-duration: 0.3s;
+}
+
+/* Style for every link */
+a {
+  text-decoration: none;
+}
+
+/* Style for links in header (including h1) */
+header a {
+  color: var(--light);
+  font-size: 1.3rem;
+}
+
+/* Navbar */
+.navbar {
+  width: 30rem;
+}
+
+/* Style for navbar links and contact me list */
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding-inline-start: 0;
+}
+
+/* Style for banner image */
+.banner {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  background-image: url("./assets/images/banner.jpg");
+  color: var(--light);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+/* Style for title on the banner image */
+.banner h2 {
+  font-size: 3rem;
+  width: 100%;
   text-align: center;
+  text-shadow: 0rem 0rem 0.5rem var(--black);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style for each content section */
+.content {
+  display: flex;
+  margin: 4rem 7rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style for title of the content sections */
+.content-title {
+  font-size: 2rem;
+  width: 15%;
+  text-align: right;
+  margin-right: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Style for content box */
+.content-box {
+  display: flex;
+  width: 85%;
+  padding-left: 2rem;
+  border-left: 0.3rem solid var(--red);
+  align-items: center;
+}
+
+/* Style for About me image, targeting using ID */
+#about-me img {
+  border-radius: 50%;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Style for paragraph in about me section */
+#about-me p {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+/* Style for flexbox in My work */
+#my-work .content-box {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  margin-bottom: 2rem;
+  width: 45%;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover {
+  box-shadow: 0rem 0rem 0.7rem var(--red);
 }
 
-@keyframes App-logo-spin {
+.card img {
+  object-fit: cover;
+  object-position: 50% 0%;
+  height: 25rem;
+}
+
+.card-info {
+  color: var(--light);
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  background-color: var(--darkGrey);
+}
+
+.card-info ul {
+  width: 45%;
+}
+
+.card-info a {
+  color: var(--light);
+}
+
+#main-project,
+#main-project .card-info {
+  width: 100%;
+  font-size: 2rem;
+}
+
+#main-project img {
+  height: 30rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+/* Style for Contact me section */
+#contact-me ul {
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+/* To remove blue default color on links */
+#contact-me a {
+  color: var(--black);
+}
+
+/* Spacing between icon and text */
+i {
+  margin-right: 1rem;
+}
+
+/* Duration of transitions */
+#contact-me a,
+.card-info a,
+.card {
+  transition-duration: 0.2s;
+}
+
+#contact-me a:hover,
+.card-info a:hover {
+  text-shadow: 0rem 0rem 0.7rem var(--red);
+}
+
+/* Mobile view */
+@media screen and (max-width: 900px) {
+  header {
+    position: static;
+    text-align: center;
+    display: block;
+    padding: 1rem 1rem;
+  }
+
+  header h1 {
+    line-height: 4rem;
+  }
+
+  header h1 a {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .navbar ul {
+    display: block;
+  }
+
+  .navbar li {
+    line-height: 3rem;
+  }
+
+  .banner {
+    height: 10rem;
+  }
+
+  .banner h2 {
+    font-size: 0.9rem;
+  }
+
+  .content {
+    display: block;
+    margin: 3rem 1.7rem;
+  }
+
+  .content-title {
+    margin: auto;
+    width: max-content;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 0.25rem solid var(--red);
+  }
+
+  .content-box {
+    display: block;
+    width: 100%;
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .project-info h4 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .project-info p {
+    font-size: 1rem;
+  }
+
+  #about-me img {
+    height: 17.5rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+  }
+
+  #about-me p {
+    text-align: center;
+    margin-left: 0;
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+
+  #my-work .content-box {
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-info,
+  .card-info ul {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .card-info p,
+  .card-info li {
+    margin-bottom: 1rem;
+  }
+
+  #main-project .card-info,
+  #main-project ul {
+    flex-direction: column;
+  }
+
+  #contact-me ul {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  #contact-me li {
+    margin-bottom: 30px;
+  }
+}
+
+/* Animation defines */
+
+@keyframes colorize {
   from {
-    transform: rotate(0deg);
+    filter: grayscale(100%);
   }
   to {
-    transform: rotate(360deg);
+    filter: grayscale(0%);
   }
 }
