@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2a1bf2b8.css",
-    "main.js": "/react-portfolio/static/js/main.1722376f.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/readers-revival.png": "/react-portfolio/static/media/readers-revival.a7bc4714a3578a782549.png",
-    "static/media/food4u.png": "/react-portfolio/static/media/food4u.1be7c5194eda10abbace.png",
-    "static/media/banner.jpg": "/react-portfolio/static/media/banner.83fcba2b9fe803d4fb83.jpg",
-    "static/media/team-profile-generator.png": "/react-portfolio/static/media/team-profile-generator.3b40fa8e9c5560f23c96.png",
-    "static/media/profile.jpeg": "/react-portfolio/static/media/profile.c3a53480f9549f25a8bf.jpeg",
-    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.5f66080b755ef0d30161.png",
-    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.41fc4e9eba88e93a70e4.png",
-    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.69e5d311e746b9a75b9b.png",
-    "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.b2ddeb635e8e40e9ad9a.png",
-    "static/media/work-day-scheduler.png": "/react-portfolio/static/media/work-day-scheduler.9e480fb3178adf7729a6.png",
-    "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.462cee1460be4479944f.png",
-    "static/media/readme-generator.jpg": "/react-portfolio/static/media/readme-generator.4ca8dcf97b1eed00c9f2.jpg",
-    "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.d90a1f5da06f931c05c7.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.2a1bf2b8.css.map": "/react-portfolio/static/css/main.2a1bf2b8.css.map",
-    "main.1722376f.js.map": "/react-portfolio/static/js/main.1722376f.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.367ef888.css",
+    "main.js": "/static/js/main.04c1d26f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/readers-revival.png": "/static/media/readers-revival.a7bc4714a3578a782549.png",
+    "static/media/food4u.png": "/static/media/food4u.1be7c5194eda10abbace.png",
+    "static/media/banner.jpg": "/static/media/banner.83fcba2b9fe803d4fb83.jpg",
+    "static/media/team-profile-generator.png": "/static/media/team-profile-generator.3b40fa8e9c5560f23c96.png",
+    "static/media/profile.jpeg": "/static/media/profile.c3a53480f9549f25a8bf.jpeg",
+    "static/media/password-generator.png": "/static/media/password-generator.5f66080b755ef0d30161.png",
+    "static/media/tech-blog.png": "/static/media/tech-blog.41fc4e9eba88e93a70e4.png",
+    "static/media/note-taker.png": "/static/media/note-taker.69e5d311e746b9a75b9b.png",
+    "static/media/text-editor.png": "/static/media/text-editor.b2ddeb635e8e40e9ad9a.png",
+    "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.9e480fb3178adf7729a6.png",
+    "static/media/code-quiz.png": "/static/media/code-quiz.462cee1460be4479944f.png",
+    "static/media/readme-generator.jpg": "/static/media/readme-generator.4ca8dcf97b1eed00c9f2.jpg",
+    "static/media/employee-tracker.png": "/static/media/employee-tracker.d90a1f5da06f931c05c7.png",
+    "index.html": "/index.html",
+    "main.367ef888.css.map": "/static/css/main.367ef888.css.map",
+    "main.04c1d26f.js.map": "/static/js/main.04c1d26f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a1bf2b8.css",
-    "static/js/main.1722376f.js"
+    "static/css/main.367ef888.css",
+    "static/js/main.04c1d26f.js"
   ]
 }
